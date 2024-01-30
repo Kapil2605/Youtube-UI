@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img{
+    cursor: pointer;
+}
+.nav-bar{
+    margin-top: 2px;
+    background-color: white;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu{
+    height: 56px;
+    width: 40px;
+}
+.menu i{
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.logo{
+    background-image: url(youtube-logo-png-2061.png);
+    background-size: cover;
+    height: 40px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-logo{
+    width: 130px;
+    display: flex;
+}
+.youtube{
+    font-size: 1.2rem;
+    font-weight: 700;
+    align-items: center;
+    margin-top: 10px;
+}
+.nav-search{
+    width:50%;
+    height: 40px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.search-input{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-width: 1px;
+    padding-left: 20px;
+    width: 100%;
+    border-color: #0f1111;
+}
+.search-icon{
+    width: 45px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #f5f5f5;
+    color: #0f1111;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-right: #0f1111;
+    font-size: 20px;
+}
+.mic{
+    height: 40px;
+    width: 40px;
+    background-color:#f5f5f5;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+.mic i{
+    font-size: 22px;
+    align-items: center;
+    padding-left: 9px;
+    padding-top: 8px;
+}
+.create-video{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.create-video i{
+    font-size: 22px;
+    align-items: center;
+    padding-left: 9px;
+    padding-top: 8px;
+}
+.create-video:hover{
+    background-color: #f5f5f5;
+}
+
+/***Sidebar**/
+.sidebar{
+    margin-top: 15px;
+    width: 240px;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+}
+.deco-sidebar{
+    width: 204px;
+    height: 50px;
+    display: flex;
+}
+.logo-sidebar{
+    font-size: 18px;
+    padding-top: 10px;
+    width: 40px;
+    text-align: center;
+}
+.deco-sidebar p{
+    width:150px;
+    text-align: left;
+    padding-top: 12px;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 13px;
+}
+.deco-sidebar:hover{
+    background-color: #eaeaea;
+    border-radius: 10px;
+}
+
+/**Banner**/
+.pannel{
+    padding-left: 200px;
+    margin-top: 15px;
+    height: 39px;
+    color: rgb(11, 11, 11);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: 13px;
+}
+.pannel p{
+    background-color:#f5f5f5;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    height: 28px;
+
+}
+.pannel p:hover{
+    background-color:  #eaeaea;
+    padding: 5px;
+    border-radius: 5px;
+    height: 28px;
+
+}
+
+
+.banner{
+    margin-left: 200px;
+    width: cover;
+    height: 200px;
+}
+.banner img{
+    margin-top: 20px;
+    width: 1000px;
+    height: 300px;
+    border-radius: 20px;
+
+}
+
+/***Main**/
+.container{
+    padding-left: 200px;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner-style{
+    width: 100%;
+}
+.banner-style img{
+    width: 100%;
+    border-radius: 20px;
+}
+/**Boxex**/
+.box-contain{
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 600px
+}
+.box{
+    width: 30%;
+    height: 280px;
+    border-radius: 2px solid black;
+    background-color: white;
+    padding: 20px 0px 15px ;
+    margin-top: 15px;
+}
+.box-img{
+    height: 200px;
+    background-size: cover;
+    margin-top: 1 rem;
+    margin-bottom: 1 rem;
+    border-radius: 20px;
+}
+.box h3{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.box p{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: black;
+}
+.subscribe{
+    display: flex;
+    font-weight: 400px;
+}
+@media (max-width:850) {
+    .menu{
+        display: none;
+    }
+}
